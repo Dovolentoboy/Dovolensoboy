@@ -15,6 +15,18 @@ img {
   max-width: 100%;
   height: auto;
 }
+.header{
+  min-width: 901px;
+  background-color: #434a54;
+  font-size: 15px;
+  max-width: auto;
+  max-height: auto;
+}
+.header a{
+  text-decoration: none;
+  color: white;
+  
+}
 
 .container {
   display: flex;
@@ -26,7 +38,13 @@ img {
   margin: 0 auto;
   color: white;
 }
-
+.blya{
+  background-color: green;
+  border: solid 2px;
+  border-radius: 2px;
+  border-color: black;
+  color: white;
+}
 .menu li {
   list-style: none;
 }
@@ -173,6 +191,12 @@ img {
 /* Стили для мобильных устройств */
 @media only screen and (max-width: 600px) {
 
+
+  .header {
+    font-size: 13px;
+    max-height: auto;
+    max-width: auto;
+  }
   /* Общие стили */
   body {
     font-size:9px;
