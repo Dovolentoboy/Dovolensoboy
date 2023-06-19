@@ -4,7 +4,7 @@ body {
   font-size: 24px;
   margin: 0;
   padding: 0;
-  background-image: url(https://i.pinimg.com/originals/d3/fa/28/d3fa28bdd1049110f8cf0378bb6076db.jpg);
+  background-color: #333;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -175,7 +175,7 @@ img {
 
   /* Общие стили */
   body {
-    font-size: 16px;
+    font-size:9px;
   }
 
   /* Стили для блока .rectangle */
@@ -198,7 +198,7 @@ img {
 
   /* Общие стили */
   body {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   /* Стили для блока .rectangle */
