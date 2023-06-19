@@ -1,167 +1,230 @@
+/* Общие стили */
 body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-    margin: 0;
-    padding: 0;
-    background-image: url(https://99px.ru/sstorage/86/2020/10/image_861910201319372198972.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    transition: all 0.3s ease-in-out;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://i.pinimg.com/originals/d3/fa/28/d3fa28bdd1049110f8cf0378bb6076db.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  transition: all 0.3s ease-in-out;
 }
 
 .header {
-    background-color: #434a54;
-    border-radius: 10px;
+  background-color: #434a54;
+  border-radius: 5%;
 }
 
 .container {
-    display: flex;
+  display: flex;
 }
 
 .menu {
-    display: flex;
-    gap: 25px;
-    margin: 0 auto;
-    color: white;
+  display: flex;
+  gap: 15%;
+  margin: 0 auto;
+  color: white;
 }
 
 .menu li {
-    list-style: none;
+  list-style: none;
 }
 
 .menu__link {
-    text-decoration: none;
-    color: aliceblue;
+  text-decoration: none;
+  color: aliceblue;
 }
 
 .menu__link:hover {
-    transition-delay: 0.5ms;
-    color: green;
+  transition-delay: 0.5ms;
+  color: green;
 }
 
 .rectangle {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    max-width: 1200px;
-    height: auto;
-    max-height: calc(100vh - 100px);
-    background-color: #222e4b;
-    border-radius: 20px;
-    color: white;
-    display: inline-block;
-    border: solid 2px;
-    border-color: black;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
+  max-height: calc(100vh);
+  background-color: #222e4b;
+  border-radius: 5%;
+  color: white;
+  display: inline-block;
+  border: solid 2px;
+  border-color: black;
 }
+
 .rectangle:nth-of-type(2){
-    background-color: #222e4b;
-    margin-top: 400px;
+  background-color: #222e4b;
+  margin-top: 22%;
 }
+
 .info {
-    text-align: center;
-    padding: 0 0;
+  text-align: center;
+  padding: 0 0;
 }
 
 .about {
-    padding: 0 5%;
+  padding: 0 5%;
 }
 
 .about p {
-    margin: 0;
+  margin: 0;
 }
 
 .hobby__work {
-    padding: 0 5%;
+  padding: 0 5%;
 }
 
 .hobby__work p {
-    margin: 0;
+  margin: 0;
 }
 
 .media {
-    text-align: right;
-    padding: 0 10%;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 50px;
-    right: 0;
+  text-align: right;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50px;
+  right: 0;
 }
 
 .media__link {
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    padding: 10px 20px;
-    border-radius: 20px;
-    margin: 0;
-    gap: 25px;
-    margin-bottom: 2%;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 0;
+  gap: 25px;
+  margin-bottom: 2%;
 }
 
 .media__link:hover {
-    transition-delay: 0.5ms;
-    color: white;
-    background-color: green;
+  transition-delay: 0.5ms;
+  color: white;
+  background-color: green;
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    color: white;
-    background-color: #434a54;
-    height: 50px;
-    display: flex;
-    width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background-color: #434a54;
+  height: 50px;
+  display: flex;
+  width: 100%;
 }
 
 .footer_menu {
-    display: flex;
-    margin: 0 auto;
+  display: flex;
+  margin: 0 auto;
 }
 
 .footer__link {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .footer__link:hover {
-    transition-delay: 0.5ms;
-    color: green;
+  transition-delay: 0.5ms;
+  color: green;
 }
+
 .footer_text{
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .theme_change {
-    background-color: green;
-    border-radius: 10px;
+  background-color: green;
+  border-radius: 10px;
 }
 
 .rectangle:nth-of-type(2) .skills {
-    padding-left: 25px;
-    padding-bottom: 20px;
-    float: left;
-    width: 50%;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  float: left;
+  width: 50%;
 }
 
 .rectangle:nth-of-type(2) .skills img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .rectangle:nth-of-type(2) .skills p {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 0 0 5px;
-    border: solid 2px;
-    border-color: white;
-}
-.rectangle:nth-of-type(2) .project{
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 0 0 5px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 5px;
+  border: solid 2px;
+  border-color: white;
 }
 
+.rectangle:nth-of-type(2) .project{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 5px;
+}
+
+/* Стили для мобильных устройств */
+@media only screen and (max-width: 600px) {
+
+  /* Общие стили */
+  body {
+    font-size: 16px;
+  }
+
+  /* Стили для блока .rectangle */
+  .rectangle {
+    top: 10%;
+    width: 95%;
+    max-width: none;
+    max-height: none;
+    margin-top: 0;
+  }
+
+  /* Стили для блока .media */
+  .media {
+    text-align: center;
+    padding: 0;
+    position: static}
+}
+/* Стили для планшетов */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+
+  /* Общие стили */
+  body {
+    font-size: 18px;
+  }
+
+  /* Стили для блока .rectangle */
+  .rectangle {
+    top: 15%;
+    width: 90%;
+    max-width: none;
+    max-height: none;
+    margin-top: 0;
+  }
+}
+
+/* Стили для ноутбуков и десктопов */
+@media only screen and (min-width: 901px) {
+
+  /* Общие стили */
+  body {
+    font-size: 24px;
+  }
+
+  /* Стили для блока .rectangle */
+  .rectangle {
+    top: 30%;
+    width: 80%;
+    max-width: 1200px;
+    max-height: calc(100vh);
+    margin-top: 0;
+  }
+}
