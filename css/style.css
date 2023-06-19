@@ -11,9 +11,9 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.header {
-  background-color: #434a54;
-  border-radius: 5%;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -43,9 +43,9 @@ body {
 
 .rectangle {
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -25%);
   width: 90%;
   max-width: 1200px;
   height: auto;
@@ -90,7 +90,7 @@ body {
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 50px;
+  top: 10%;
   right: 0;
 }
 
@@ -145,18 +145,18 @@ body {
   border-radius: 10px;
 }
 
-.rectangle:nth-of-type(2) .skills {
-  padding-left: 25px;
-  padding-bottom: 20px;
+.skills {
+  padding-left: 5%;
+  padding-top: -25%;
   float: left;
   width: 50%;
 }
 
-.rectangle:nth-of-type(2) .skills img {
+.skills img {
   vertical-align: middle;
 }
 
-.rectangle:nth-of-type(2) .skills p {
+.skills p {
   display: inline-block;
   vertical-align: middle;
   margin: 0 0 0 5px;
@@ -164,7 +164,7 @@ body {
   border-color: white;
 }
 
-.rectangle:nth-of-type(2) .project{
+.project{
   display: inline-block;
   vertical-align: middle;
   margin: 0 0 0 5px;
