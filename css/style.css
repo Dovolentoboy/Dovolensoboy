@@ -1,13 +1,21 @@
 /* Общие стили */
+
+:root{
+  --main: white;
+  --main-rgb: 34, 46, 75;
+  color-scheme: dark;
+}
+
+
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
   margin: 0;
   padding: 0;
-  background-color: #333;
+  background-color: var(--main-rgb);
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: var(--main);
   transition: all 0.3s ease-in-out;
 }
 
@@ -68,9 +76,9 @@ img {
   max-width: 1200px;
   height: auto;
   max-height: calc(100vh);
-  background-color: #222e4b;
+  background-color: rgba(var(--main-rgb),.9);
   border-radius: 5%;
-  color: white;
+  color: rgba(var(--main));
   display: inline-block;
   border: solid 2px;
   border-color: black;
@@ -251,4 +259,10 @@ img {
     max-height: calc(100vh);
     margin-top: 0;
   }
+}
+
+.dark{
+  --main: (0,0,0);
+  --main-rgb: 255, 255, 255;
+  color-scheme: light;
 }
