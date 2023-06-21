@@ -1,15 +1,13 @@
-const toggleElement = document.querySelector('#blya');
+let root = document.querySelector(":root");
+let button = document.querySelector("#themeToggle");
 
-function changeText() {
-    if (toggleElement.textContent === 'тык-тык') {
-        toggleElement.textContent = 'Люблю тебя)';
-    } else if (toggleElement.textContent === 'тык-тык') {
-        toggleElement.textContent = 'Обожаю просто';
+button.addEventListener('click',() => {
+    event.preventDefault();
+    root.classList.toggle('dark');
+    // Изменение текста кнопки
+    if (button.textContent === 'Темно') {
+        button.textContent = 'Светло';
     } else {
-        toggleElement.textContent = 'тык-тык';
-    }
-}
-
-toggleElement.addEventListener('click', () => {
-    changeText();
+        button.textContent = 'Темно';
+    }   
 });
