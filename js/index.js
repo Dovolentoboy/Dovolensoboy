@@ -5,9 +5,9 @@ button.addEventListener('click',() => {
     event.preventDefault();
     root.classList.toggle('dark');
     // Изменение текста кнопки
-    if (button.textContent === 'Темно') {
-        button.textContent = 'Светло';
+    if (button.textContent === 'Сделай светло') {
+        button.textContent = 'БЛЯТЬ МОИ ГЛАЗА! СДЕЛАЙ ОБРАТНО';
     } else {
-        button.textContent = 'Темно';
+        button.textContent = 'Сделай светло';
     }   
 });
