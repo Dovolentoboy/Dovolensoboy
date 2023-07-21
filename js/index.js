@@ -6,7 +6,7 @@ button.addEventListener('click',() => {
     root.classList.toggle('dark');
     // Изменение текста кнопки
     if (button.textContent === 'Сделай светло') {
-        button.textContent = 'БЛЯТЬ МОИ ГЛАЗА! СДЕЛАЙ ОБРАТНО';
+        button.textContent = 'Сделай темно';
     } else {
         button.textContent = 'Сделай светло';
     }   
